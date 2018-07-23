@@ -21,7 +21,7 @@ javac TwoPassLinker.java
 ```
 
 ### Running
-Provide the text-based input as the first and only command line argument in the following way. See sample [input files](inputs/) as well as their [corresponding outputs](outputs/).
+Provide the text-based input as the first and only command line argument in the following way. See sample [input files](twoPassLinker/input/) as well as their [corresponding outputs](twoPassLinker/output/).
 ```
 java TwoPass input(1~9).txt
 ```
