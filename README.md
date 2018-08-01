@@ -1,8 +1,5 @@
 Two-Pass-Linker
-===============
-**Miguel Amigot**
-<br>
-*Operating Systems, Spring 2018*
+
 
 Implementation of a two-pass linker in Java for a target machine that's word addressable with a memory of 200 words, each consisting of 4 decimal digits.  
 The first (leftmost) digit is the opcode, which is unchanged by the linker. The remaining three digits (called the address
