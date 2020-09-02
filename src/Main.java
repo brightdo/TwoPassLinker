@@ -8,7 +8,7 @@ public class Main {
         filename = args[0];
         String output = "";
         Scanner input = newScanner(filename);
-        LinkedList < String > allData = new LinkedList < > ();
+        LinkedList < String > allData = new LinkedList < String > ();
         allData = createDataList(input);
 
         FirstPass firstpass = new FirstPass(allData);
@@ -26,8 +26,8 @@ public class Main {
         return null;
     }
 
-    public static LinkedList createDataList(Scanner input) {
-        LinkedList returnData = new LinkedList < String > ();
+    public static LinkedList<String> createDataList(Scanner input) {
+        LinkedList< String > returnData = new LinkedList < String > ();
         String[] indviData = null;
         //Store string input into an arrayList(allData). Splits all white spaces and removes empty lines
         while (input.hasNext()) {
