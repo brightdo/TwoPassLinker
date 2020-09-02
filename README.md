@@ -14,11 +14,11 @@ used in other modules, uses in this module of symbols defined in other modules, 
   
 ### Compiling
 ```
-javac TwoPassLinker.java
+javac Main.java
 ```
 
 ### Running
 Provide the text-based input as the first and only command line argument in the following way. See sample [input files](/input) as well as their [corresponding outputs](/output).
 ```
-java TwoPass input(1~9).txt
+java Main ../input/input(1~9).txt
 ```
